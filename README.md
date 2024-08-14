@@ -32,3 +32,31 @@ A Rust based calculator api service
     "result": 5
   }
   ```
+- POST `/multiply`
+  - Request:
+  ```json
+  {
+    "x": 2,
+    "y": 2
+  }
+  ```
+  - Response:
+  ```json
+  {
+    "result": 4
+  }
+  ```
+- POST `/divide`
+  - Request:
+  ```json
+  {
+    "x": 4,
+    "y": 2
+  }
+  ```
+  - Response:
+  ```json
+  {
+    "result": 2
+  }
+  ```
